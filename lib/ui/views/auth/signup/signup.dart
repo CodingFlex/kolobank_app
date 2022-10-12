@@ -168,6 +168,7 @@ class _SignUpState extends State<SignUp> {
                                 ),
                                 suffixIcon: Icon(
                                   Icons.remove_red_eye_outlined,
+                                  color: Color(0xFFc4c4c4),
                                 ),
                                 border: InputBorder.none,
                                 labelText: "Password",
@@ -213,6 +214,7 @@ class _SignUpState extends State<SignUp> {
                                 ),
                                 suffixIcon: Icon(
                                   Icons.remove_red_eye_outlined,
+                                  color: Color(0xFFC4C4C4),
                                 ),
                                 border: InputBorder.none,
                                 labelText: "Confirm Password",
@@ -252,7 +254,7 @@ class _SignUpState extends State<SignUp> {
                                 ),
                               ),
                             ),
-                          )
+                          ),
                         ],
                       ),
                     ),

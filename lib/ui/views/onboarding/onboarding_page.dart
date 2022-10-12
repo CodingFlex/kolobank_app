@@ -124,7 +124,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                               context,
                               // MaterialPageRoute(builder: (context) => HomePage()));
                               MaterialPageRoute(
-                                  builder: (context) => HomePage()));
+                                  builder: (context) => LoginPage()));
                         },
                         child: Container(
                           height: 50.0,
